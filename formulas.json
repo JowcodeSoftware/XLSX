@@ -1,0 +1,36 @@
+{
+    "Formulas": [
+        {
+            "name": "DATE",
+            "formula": "DD/MM/YYYY"
+        },
+        {
+            "name": "MES",
+            "formula": "=MÊS(A5)"
+        },
+        {
+            "name": "ANO",
+            "formula": "=ANO(A5)"
+        },
+        {
+            "name": "DIA",
+            "formula": "=TEXTO(A5;"DDDD")"
+        },
+        {
+            "name": "HORAS-TRABALHADAS",
+            "formula": "=(H5-G5)+(F5-E5)"
+        },
+        {
+            "name": "HORAS-PADRAO",
+            "formula": "="8:00""
+        },
+        {
+            "name": "HORAS-EXTRAS",
+            "formula": "=SE(I5*24<J5*24;0;I5-J5)"
+        },
+        {
+            "name": "HORAS-DEVIDAS",
+            "formula": "=SE(I5*24<J5*24;J5-I5;0)"
+        },
+    ]
+}
